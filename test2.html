@@ -9,11 +9,11 @@
     <form action="" method="post">
         <!-- username -->
         <label for="username">username</label>:
-        <input type="text" name="username" id="username" placeholder="username"><br>
+        <input type="text" name="username" id="username" placeholder="username" required><br>
 
         <!-- password -->
          <label for="password">password</label>:
-         <input type="password" name="password" id="password" placeholder="enter password"><br>
+         <input type="password" name="password" id="password" placeholder="enter password" required><br>
 
         <!-- submit button -->
          <input type="submit" name="submit"><br><br>
@@ -34,6 +34,25 @@
            <input type="date" id="date" name="date"><br><br>
     </form>
 
-    
+    <table>
+        <thead>
+            <th>item name</th>
+            <td>quantity</td>
+            <td>price</td>
+            <td>total</td>
+        </thead>
+        <tbody>
+            <th>iphone</th>
+            <th>2</th>
+            <td>$50</td>
+            <td>$100</td>
+        </tbody>
+        <tfoot>
+            <th>Samsung</th>
+            <td>1</td>
+            <td>$70</td>
+            <td>$70</td>
+        </tfoot>
+    </table><br><br>
 </body>
 </html>
